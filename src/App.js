@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import Header from  './components/header/Header';
 import Home from './components/main/home/home';
 import Beers from './components/main/beers/Beers';
@@ -10,7 +10,7 @@ import {connect} from 'react-redux';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter >
+      <HashRouter >
         <div className="App"> 
               <Header />
               <main>
@@ -22,7 +22,7 @@ class App extends Component {
               </main>  
             
        </div>
-      </BrowserRouter>
+      </HashRouter>
 
     );
   }
