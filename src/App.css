@@ -497,7 +497,7 @@ a {
 
 @media screen and (max-height: 400px) {
   .singleItem {
-    height: calc((100vh - 48px - 50px)/3); }
+    height: calc((100vh - 48px - 50px)/2); }
   .modal-item-container {
     height: 90vh; }
   .item-details-brewerTip {
