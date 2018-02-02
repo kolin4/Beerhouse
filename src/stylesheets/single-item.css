@@ -29,3 +29,8 @@
     overflow: hidden; }
   .singleItem p {
     font-size: 0.6rem; }
+
+.singleItem-link {
+  color: black; }
+  .singleItem-link:visited {
+    color: black; }

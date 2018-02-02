@@ -43,4 +43,9 @@
       font-size: 0.6rem;
     }
   }
-  
+  .singleItem-link {
+    color: black;
+    &:visited {
+      color: black;
+    }
+  }

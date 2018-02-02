@@ -131,6 +131,11 @@ nav.menuBurger {
   .singleItem p {
     font-size: 0.6rem; }
 
+.singleItem-link {
+  color: black; }
+  .singleItem-link:visited {
+    color: black; }
+
 /* spinner Mini */
 .loaderMini-container {
   width: 100%;
@@ -356,7 +361,8 @@ nav.menuBurger {
   font-family: 'Roboto', sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
   a:visited {
     color: black; }
 
