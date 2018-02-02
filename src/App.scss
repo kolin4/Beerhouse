@@ -228,6 +228,23 @@ a {
 
 }
 
+@media screen and (max-height:400px){
+  .singleItem {
+    height: calc((100vh - 48px - 50px)/3);
+  }
+  .modal-item-container {
+    height: 90vh;
+  }
+  .item-details-brewerTip {
+    display: none;
+  }
+  .item-details-description {
+    p {
+      font-size: 0.5rem;
+    }
+  }
+}
+
 @media screen and (min-width:641px){
   .burger-icon {display: none}
   .menuBurger{display: none}
