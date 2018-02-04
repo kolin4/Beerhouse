@@ -74,6 +74,7 @@ nav.menuBurger {
   min-height: 100vh;
   position: fixed;
   top: 48px;
+  left: 0;
   transition: 0.5s;
   z-index: 101; }
   nav.menuBurger li {
@@ -497,7 +498,7 @@ a {
 
 @media screen and (max-height: 400px) {
   .singleItem {
-    height: calc((100vh - 48px - 50px)/2); }
+    height: calc((100vh - 48px - 35px)/2); }
   .modal-item-container {
     height: 90vh; }
   .item-details-brewerTip {

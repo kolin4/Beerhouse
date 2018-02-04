@@ -230,7 +230,7 @@ a {
 
 @media screen and (max-height:400px){
   .singleItem {
-    height: calc((100vh - 48px - 50px)/2);
+    height: calc((100vh - 48px - 35px)/2);
   }
   .modal-item-container {
     height: 90vh;
